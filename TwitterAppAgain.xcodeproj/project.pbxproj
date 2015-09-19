@@ -13,6 +13,8 @@
 		1D22A72E1BAD39FE00FE400E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D22A72D1BAD39FE00FE400E /* Images.xcassets */; };
 		1D22A7311BAD39FE00FE400E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D22A72F1BAD39FE00FE400E /* LaunchScreen.xib */; };
 		1D22A73D1BAD39FE00FE400E /* TwitterAppAgainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D22A73C1BAD39FE00FE400E /* TwitterAppAgainTests.swift */; };
+		1D22A74D1BAD48AB00FE400E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D22A74C1BAD48AB00FE400E /* TableViewController.swift */; };
+		1D22A74F1BAD48C500FE400E /* TimeLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D22A74E1BAD48C500FE400E /* TimeLineTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		1D22A7361BAD39FE00FE400E /* TwitterAppAgainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterAppAgainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D22A73B1BAD39FE00FE400E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D22A73C1BAD39FE00FE400E /* TwitterAppAgainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAppAgainTests.swift; sourceTree = "<group>"; };
+		1D22A74C1BAD48AB00FE400E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		1D22A74E1BAD48C500FE400E /* TimeLineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				1D22A72D1BAD39FE00FE400E /* Images.xcassets */,
 				1D22A72F1BAD39FE00FE400E /* LaunchScreen.xib */,
 				1D22A7241BAD39FE00FE400E /* Supporting Files */,
+				1D22A74C1BAD48AB00FE400E /* TableViewController.swift */,
+				1D22A74E1BAD48C500FE400E /* TimeLineTableViewCell.swift */,
 			);
 			path = TwitterAppAgain;
 			sourceTree = "<group>";
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D22A74F1BAD48C500FE400E /* TimeLineTableViewCell.swift in Sources */,
 				1D22A7291BAD39FE00FE400E /* ViewController.swift in Sources */,
+				1D22A74D1BAD48AB00FE400E /* TableViewController.swift in Sources */,
 				1D22A7271BAD39FE00FE400E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
