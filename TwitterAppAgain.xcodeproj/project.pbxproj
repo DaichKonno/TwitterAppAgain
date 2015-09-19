@@ -15,6 +15,10 @@
 		1D22A73D1BAD39FE00FE400E /* TwitterAppAgainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D22A73C1BAD39FE00FE400E /* TwitterAppAgainTests.swift */; };
 		1D22A74D1BAD48AB00FE400E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D22A74C1BAD48AB00FE400E /* TableViewController.swift */; };
 		1D22A74F1BAD48C500FE400E /* TimeLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D22A74E1BAD48C500FE400E /* TimeLineTableViewCell.swift */; };
+		1D22A7541BAD4DEF00FE400E /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D22A7511BAD4DEF00FE400E /* iTunesArtwork.png */; };
+		1D22A7551BAD4DEF00FE400E /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D22A7521BAD4DEF00FE400E /* iTunesArtwork@2x.png */; };
+		1D22A7561BAD4DEF00FE400E /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D22A7531BAD4DEF00FE400E /* placeholder.png */; };
+		40A4307FB65610C67BC13F59 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C52C757BA7B4124AB4C2A2D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		1D22A73C1BAD39FE00FE400E /* TwitterAppAgainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAppAgainTests.swift; sourceTree = "<group>"; };
 		1D22A74C1BAD48AB00FE400E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		1D22A74E1BAD48C500FE400E /* TimeLineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineTableViewCell.swift; sourceTree = "<group>"; };
+		1D22A7511BAD4DEF00FE400E /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		1D22A7521BAD4DEF00FE400E /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		1D22A7531BAD4DEF00FE400E /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		3C52C757BA7B4124AB4C2A2D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		510F8C7DB5A497EDF0CED2E7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CA5B19386407B73BA0612DAA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A4307FB65610C67BC13F59 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +74,12 @@
 		1D22A7181BAD39FE00FE400E = {
 			isa = PBXGroup;
 			children = (
+				1D22A7501BAD4DEF00FE400E /* image */,
 				1D22A7231BAD39FE00FE400E /* TwitterAppAgain */,
 				1D22A7391BAD39FE00FE400E /* TwitterAppAgainTests */,
 				1D22A7221BAD39FE00FE400E /* Products */,
+				EBCC0D1120590A1833DC6D6F /* Pods */,
+				D1BF3A1AFBEEC894934A5244 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +132,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1D22A7501BAD4DEF00FE400E /* image */ = {
+			isa = PBXGroup;
+			children = (
+				1D22A7511BAD4DEF00FE400E /* iTunesArtwork.png */,
+				1D22A7521BAD4DEF00FE400E /* iTunesArtwork@2x.png */,
+				1D22A7531BAD4DEF00FE400E /* placeholder.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		D1BF3A1AFBEEC894934A5244 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C52C757BA7B4124AB4C2A2D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBCC0D1120590A1833DC6D6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA5B19386407B73BA0612DAA /* Pods.debug.xcconfig */,
+				510F8C7DB5A497EDF0CED2E7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D22A7401BAD39FE00FE400E /* Build configuration list for PBXNativeTarget "TwitterAppAgain" */;
 			buildPhases = (
+				2BC2FF2F745C2342D6DFFF5D /* Check Pods Manifest.lock */,
 				1D22A71D1BAD39FE00FE400E /* Sources */,
 				1D22A71E1BAD39FE00FE400E /* Frameworks */,
 				1D22A71F1BAD39FE00FE400E /* Resources */,
+				C1ECD39A67B9C7C09569222C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,7 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D22A72C1BAD39FE00FE400E /* Main.storyboard in Resources */,
+				1D22A7561BAD4DEF00FE400E /* placeholder.png in Resources */,
+				1D22A7551BAD4DEF00FE400E /* iTunesArtwork@2x.png in Resources */,
 				1D22A7311BAD39FE00FE400E /* LaunchScreen.xib in Resources */,
+				1D22A7541BAD4DEF00FE400E /* iTunesArtwork.png in Resources */,
 				1D22A72E1BAD39FE00FE400E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +258,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BC2FF2F745C2342D6DFFF5D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1ECD39A67B9C7C09569222C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D22A71D1BAD39FE00FE400E /* Sources */ = {
@@ -348,6 +427,7 @@
 		};
 		1D22A7411BAD39FE00FE400E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA5B19386407B73BA0612DAA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TwitterAppAgain/Info.plist;
@@ -358,6 +438,7 @@
 		};
 		1D22A7421BAD39FE00FE400E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 510F8C7DB5A497EDF0CED2E7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TwitterAppAgain/Info.plist;
@@ -419,6 +500,7 @@
 				1D22A7421BAD39FE00FE400E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D22A7431BAD39FE00FE400E /* Build configuration list for PBXNativeTarget "TwitterAppAgainTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +509,7 @@
 				1D22A7451BAD39FE00FE400E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

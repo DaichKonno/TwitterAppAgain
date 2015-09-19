@@ -19,12 +19,12 @@ class TableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         //セルを内部的にリサイクルしているのでこちらが必須になります。
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! TimeLineTableViewCell
         
-        cell.textLabel?.text = dataArray[indexPath.row]["title"]
+        cell.tweetLabel.text = dataArray[indexPath.row]["title"]
         
         return cell
     }
-    
+ 
 }
    
