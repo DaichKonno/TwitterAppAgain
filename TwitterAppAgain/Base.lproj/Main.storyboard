@@ -20,7 +20,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yI-rr-Ypo">
-                                            <rect key="frame" x="130" y="10" width="284" height="20.5"/>
+                                            <rect key="frame" x="155" y="10" width="259" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
@@ -47,7 +47,7 @@
                                         <constraint firstItem="6yI-rr-Ypo" firstAttribute="leading" secondItem="xrx-A8-pOI" secondAttribute="trailing" constant="16" id="6qJ-ud-lAu"/>
                                         <constraint firstItem="xrx-A8-pOI" firstAttribute="top" secondItem="oRT-ad-PH0" secondAttribute="top" id="J7u-g7-XEU"/>
                                         <constraint firstAttribute="trailing" secondItem="6yI-rr-Ypo" secondAttribute="trailing" id="R1i-Bw-W6o"/>
-                                        <constraint firstItem="6yI-rr-Ypo" firstAttribute="leading" secondItem="xrx-A8-pOI" secondAttribute="trailing" constant="10" id="Yyo-lq-yyr"/>
+                                        <constraint firstItem="6yI-rr-Ypo" firstAttribute="leading" secondItem="xrx-A8-pOI" secondAttribute="trailing" constant="35" id="Yyo-lq-yyr"/>
                                         <constraint firstItem="6yI-rr-Ypo" firstAttribute="centerY" secondItem="xrx-A8-pOI" secondAttribute="centerY" id="at1-8y-Bxo"/>
                                         <constraint firstItem="6yI-rr-Ypo" firstAttribute="leading" secondItem="xrx-A8-pOI" secondAttribute="trailing" constant="16" id="f9K-13-fna"/>
                                         <constraint firstItem="xrx-A8-pOI" firstAttribute="top" secondItem="oRT-ad-PH0" secondAttribute="top" id="ilj-A9-Fsn"/>
